@@ -3,6 +3,9 @@
 // 2, 4 -> 16
 
 
+System.Console.WriteLine("Введите число: ");
+System.Console.WriteLine("Введите степень: ");
+
 int power(int A, int B)
 {
     int i = 1;
@@ -14,4 +17,6 @@ int power(int A, int B)
     }
     return Res;
 }
+
+System.Console.Write("Ответ: ");
 System.Console.WriteLine(power(3, 5));

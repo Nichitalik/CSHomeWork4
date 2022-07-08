@@ -3,7 +3,7 @@
 // 82 -> 10
 // 9012 -> 12
 
-
+System.Console.WriteLine("введите число: ");
 int sum(int num)
 {
     int Res = 0;
@@ -14,4 +14,5 @@ int sum(int num)
     }
     return Res;
 }
+System.Console.Write("ответ: ");
 System.Console.WriteLine(sum(9012));
